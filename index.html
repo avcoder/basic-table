@@ -11,14 +11,13 @@
   </head>
   <body>
     <h1>My App</h1>
-    <details>
-      <summary>Create New Row</summary>
-      <form id="dataForm">
-        <input type="text" id="name" placeholder="Enter name" required />
-        <input type="number" id="age" placeholder="Enter age" required />
-        <button type="submit">Add Row</button>
-      </form>
-    </details>
+
+    <div>
+      <br />
+      <input type="text" id="name" placeholder="Search" required />
+      <br />
+    </div>
+
     <table>
       <thead>
         <tr>
@@ -55,6 +54,16 @@
         </tr>
       </tbody>
     </table>
+
+    <details>
+      <summary>Create New Row</summary>
+      <form id="dataForm">
+        <input type="text" id="name" placeholder="Enter name" required />
+        <input type="number" id="age" placeholder="Enter age" required />
+        <button type="submit">Add Row</button>
+      </form>
+    </details>
+
     <script src="index.js"></script>
   </body>
 </html>
